@@ -20,7 +20,7 @@ h6 {
 }
 p {
     color: gainsboro;
-    font-family: meiryo, "微軟正黑體", Microsoft Jhenghei;
+    font-family: inherit, meiryo, "微軟正黑體", Microsoft Jhenghei;
 }
 h2 {
     font-size: 30px;
