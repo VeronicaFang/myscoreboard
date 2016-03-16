@@ -449,33 +449,6 @@
         </div>
     </section>
     <!--/#team-->
-
-    <section id="features" class="parallax">
-        <div class="container">
-            <div class="row count">
-                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <i class="fa fa-user"></i>
-                    <h3 class="timer">4000</h3>
-                    <p>Happy Clients</p>
-                </div>
-                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-                    <i class="fa fa-desktop"></i>
-                    <h3 class="timer">200</h3>
-                    <p>Modern Websites</p>
-                </div>
-                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-                    <i class="fa fa-trophy"></i>
-                    <h3 class="timer">10</h3>
-                    <p>WINNING AWARDS</p>
-                </div>
-                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <i class="fa fa-comment-o"></i>
-                    <h3>24/7</h3>
-                    <p>Fast Support</p>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--/#features-->
     <!--/#twitter-->
     <!--/#contact-->
@@ -483,8 +456,10 @@
         <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="container text-center">
                 <div class="footer-logo">
-                    <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+                    <a href="index.html"><img class="img-responsive" src="./Badminton/LOGO%20thumb.png" alt=""></a>
                 </div>
+                <br/>
+                <p>My Scord Board 我的計分版</p>
                 <div class="social-icons">
                     <ul>
                         <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
@@ -495,20 +470,28 @@
                         <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
                     </ul>
                 </div>
+
+                <script type="text/javascript">
+                    var submitted = false;
+
+                </script>
+                <iframe id="hidden_iframe" name="hidden_iframe" style="display: none;" onload="if(submitted) {window.location='http://veronicafang.github.io/thankyoupage.';}"></iframe>
+
+                <form action="http://www.newsleopard.com/mailverify.htm?x=8a383d3a4969aea90149b7ae6a0324c3" target="hidden_iframe" method="post" onsubmit="submitted=true;" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;max-width: 300px;margin: 10px auto;padding: 12px 20px;background: #F5F5F5;border-radius: 8px;">
+                    <h1 style="color: #888888; -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0.1em 0;text-align: center;font-size: 1.5em;">訂閱電子報</h1>
+                    <fieldset>
+                        <label for="mail" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: block;margin-bottom: 8px; color:#000000;">我們將不定期提供最新資訊給您</label>
+                        <input placeholder="輸入 email" type="email" id="mail" name="email" required style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;color: #000000;font: inherit; text-indent:5px;;line-height: normal;background: #FFFFFF;font-size: 16px;height: auto;outline: 0;padding: 8px;width: 100%;background-color: #FFFFFF;box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;margin-bottom: 30px; display:block; ">
+                        <button class="signupButton" type="submit" style="border-radius: 5px;width: 100%;border: 1px solid #44c767;background-color:#3ac162;border-width: 1px 1px 3px;overflow: visible;margin-bottom: 20px;text-transform: none;cursor: pointer;">立即訂閱</button>
+                        <label for="mail" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: block;margin-bottom: 8px; color:#000000;">您絕對不會收到非相關內容，且可以隨時取消訂閱</label>
+
+                    </fieldset>
+                </form>
+
+
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>&copy; 2016 Oxygen Theme.</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="pull-right">Crafted by <a href="http://designscrazed.org/">Allie</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </footer>
 
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -521,7 +504,23 @@
     <script type="text/javascript" src="js/jquery.countTo.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+        ga('create', 'UA-75181213-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 
 </body>
 
