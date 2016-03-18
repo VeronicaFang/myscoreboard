@@ -35,6 +35,9 @@ h3 {
     background-position: center;
     background-attachment: fixed;
 }
+.scord-world-title {
+    color: darkorange;
+}
 .scord-world {
     font-size: 1.3em;
 }
@@ -309,9 +312,14 @@ section {
 .screenshoot {
     width: 70%;
 }
+.appstore-div {
+    position: relative;
+}
 .appstore {
     width: 50%;
-    float: inherit;
+    position: fixed;
+    bottom: -50px;
+    right: 150px;
 }
 .progress {
     height: 20px;
