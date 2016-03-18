@@ -307,10 +307,11 @@ section {
     margin-bottom: 30px;
 }
 .screenshoot {
-    width: 100%;
+    width: 70%;
 }
 .appstore {
-    width: 70%;float:left;
+    width: 50%;
+    float: inherit;
 }
 .progress {
     height: 20px;
