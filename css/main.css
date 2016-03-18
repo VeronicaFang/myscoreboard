@@ -35,7 +35,8 @@ h3 {
     background-position: center;
     background-attachment: fixed;
 }
-.scord-world {font-size: 1.3em;
+.scord-world {
+    font-size: 1.3em;
 }
 .parallax,
 .parallax h1,
@@ -304,6 +305,12 @@ section {
 }
 #about-us h1 {
     margin-bottom: 30px;
+}
+.screenshoot {
+    width: 100%;
+}
+.appstore {
+    width: 70%;float:left;
 }
 .progress {
     height: 20px;
