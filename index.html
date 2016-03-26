@@ -1,32 +1,43 @@
 <!DOCTYPE html>
+<!--
+	Transit by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>My Score Board | 揮灑你的汗水</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Transit by TEMPLATED</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
     <meta property="og:title" content="My Score Board | 揮灑你的汗水" />
     <meta property="og:type" content="Website" />
-    <meta property="og:url" content="http://veronicafang.github.io/myscoreboard/" />
+    <meta property="og:url" content="http://myscoreboardapp.com/" />
     <meta property="og:image" content="http://veronicafang.github.io/myscoreboard/Badminton/summer_beach_badminton.jpg" />
     <meta property="og:description" content="透過MyScore Board App，除了解決三五好友安排賽程的麻煩，節省時間外，也讓所有隊員們了解與紀錄自己的戰績，增添比賽樂趣。">
 
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-  <![endif]-->
+    <!-- GA Tracking Code for http://veronicafang.github.io/myscoreboard/ -->
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="./Badminton/LOGO%20thumb.png">
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-75181213-1', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+
+    </script>
 
     <!-- Hotjar Tracking Code for http://veronicafang.github.io/myscoreboard/ -->
     <script>
@@ -76,235 +87,174 @@
     <!-- End Facebook Pixel Code -->
 
 
+
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-xlarge.css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </noscript>
+
+
+
 </head>
-<!--/head-->
 
-<body>
+<body class="landing">
 
-    <!--.preloader-->
-    <div class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
-    <!--/.preloader-->
-
-    <header id="home">
-        <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/5.jpg)">
-
-                    <div class="caption">
-                        <P id="logo"><img src="./Badminton/LOGO%20thumb.png" alt=""></P>
-                        <h1 class="animated fadeInLeftBig">創造屬於我的<span>運動大聯盟</span></h1>
-                        <p class="animated fadeInRightBig">迅速安排賽程，享受爆扣對手的瞬間，創造偉大的連勝紀錄</p>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#footer">立即免費試用</a>
-                    </div>
-                </div>
-
-                <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
-                <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-
-            </div>
-            <!--/#home-slider-->
-            <!--/#main-nav-->
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="index.html">MyScoreBoard</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#one">功能介紹</a></li>
+                <li><a href="＃two">關於我們</a></li>
+                <li><a href="#footer" class="button special">Sign Up</a></li>
+            </ul>
+        </nav>
     </header>
-    <!--/#home-->
-    <section id="services">
+
+    <!-- Banner -->
+    <section id="banner">
+        <h2>紀錄羽球生涯的<span id="banner_span">最佳夥伴</span></h2>
+        <p>My Score Board提供免費的App與網站，幫助挑戰者長時間的紀錄賽事成果，激發成長潛能。
+        </p>
+        <ul class="actions">
+            <li>
+                <a href="#footer" class="button big">免費下載</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="wrapper style1 special">
         <div class="container">
-            <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="row">
-
-                    <div class="text-center col-sm-8 col-sm-offset-2">
-                        <div>
-                            <h1 class="scord-world-title">App 三大特色</h1>
+            <header class="major">
+                <h2>三大功能 不可錯過</h2>
+                <p>迅速安排賽程，享受爆扣對手的瞬間，創造偉大的連勝紀錄</p>
+            </header>
 
 
-                        </div>
-                    </div>
+
+            <div class="row 150%">
+                <div class="4u 12u$(medium)">
+                    <section class="box">
+                        <img src="./Badminton/1457952654_calendar-clock.png" alt="Badmintion calendar">
+                        <h3>安排賽程</h3>
+                        <p>一鍵完成3-8人賽程安排，無需再為排列組合傷透腦筋</p>
+                    </section>
                 </div>
-            </div>
-            <div class="text-center our-services">
-                <div class="row">
-
-
-                    <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div>
-                            <img src="./Badminton/1457952654_calendar-clock.png" alt="">
-                        </div>
-                        <div class="service-info">
-                            <h3>排賽程</h3>
-                            <p>一鍵完成3-8人賽程安排，無需再為排列組合傷透腦筋</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div>
-                            <img src="./Badminton/1457952470_icon-57.png" alt="">
-                        </div>
-                        <div class="service-info">
-                            <h3>紀錄比賽</h3>
-                            <p>完整記錄每場賽事比分，輕鬆累計個人紀錄。</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div>
-                            <img src="./Badminton/1457952376_vector_66_10.png" alt="">
-                        </div>
-                        <div class="service-info">
-                            <h3>社群分享</h3>
-                            <p>透過FB/IG分享運動的驕傲，讓更多人為你的成績喝采！ </p>
-                        </div>
-                    </div>
+                <div class="4u 12u$(medium)">
+                    <section class="box"><img src="./Badminton/1457952470_icon-57.png" alt="Badminton Record">
+                        <h3>紀錄比賽</h3>
+                        <p>完整記錄每場賽事，輕鬆累計個人年度勝負與團隊戰績。</p>
+                    </section>
+                </div>
+                <div class="4u$ 12u$(medium)">
+                    <section class="box">
+                        <img src="./Badminton/1457952376_vector_66_10.png" alt="Network">
+                        <h3>社群分享</h3>
+                        <p>創造團友互動空間，透過FB讓更多人為你的成績喝采！</p>
+                    </section>
                 </div>
             </div>
         </div>
     </section>
-    <!--/#services-->
-    <section id="about-us" class="parallax">
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2 special">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <h2>About us</h2>
-                        <h6 align="central">
-                              <p class="scord-world">滿腹期待的假日的午後競技，卻總是為了安排賽程而苦惱嗎？</p><p class="scord-world">週間晚上與同事們的比賽，還在拿紙筆記錄分數與勝負嗎？</p>
-                               <p class="scord-world"> MyScore Board App，一個步驟解決三五好友安排賽程的麻煩，</p><p class="scord-world">同時也讓所有隊員們紀錄自己的戰績，增添比賽樂趣。</p>
-                               
-                            </h6>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <p align="central">
-                            <img src="./Badminton/screenshoot.PNG" class="screenshoot" alt="my score board app">
+            <header class="major">
+                <section class="profiles">
 
-                        </p>
+                    <div class="row">
+                        <section class="4u 12u(medium) 12u$(xsmall) profile">
+                            <p><img src="./Badminton/badminton_img/badminton%20icon.jpg" alt=""></p>
+                        </section>
+                        <section class="8u 12u(medium) 12u$(xsmall) profile">
+                            <h2>關於我們</h2>
+                            <h5>我們是一群熱愛羽球的上班族，假日或平日晚上的賽事成為我們生活中不可或缺的精神糧食，為了節省手動安排賽程的時間，以及幫助球友們更加了解自己長期以來的戰況，我們製作了My Score Board的App與網站，希望能讓球友們更有組織地留下每場比賽的紀錄，增添賽事樂趣，歡迎加入創造屬於自己的羽球大聯盟的行列。</h5>
 
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="appstore-div" align="central">
+                            <h4>滿腹期待的假日午後競技，卻總是為了安排賽程而苦惱嗎？</h4>
+                            <h4>總是拿紙筆記錄賽事分數，卻忘了自己有沒有變得比上個月更強嗎？</h4>
 
-                            <img src="./Badminton/Download_on_the_App_Store_Badge_US-UK_135x40%20%E6%8B%B7%E8%B2%9D.png" class="appstore" alt="">
-                        </div>
+                            <h4>MyScore Board App，紀錄羽球生涯的最佳夥伴。</h4>
+
+                        </section>
+
+
 
                     </div>
-                </div>
-            </div>
+                </section>
+            </header>
+
+
+
+            <footer>
+                <ul class="actions">
+                    <li>
+                        <a href="#footer" class="button big">搶先取得試用訊息</a>
+                    </li>
+                </ul>
+            </footer>
         </div>
     </section>
-    <!--/#about-us-->
 
-    <!-- /#portfolio-single-wrap -->
-
-    <!--/#portfolio-->
-
-    <!--/#team-->
-    <!--/#features-->
-    <!--/#twitter-->
-    <!--/#contact-->
+    <!-- Three -->
+    <!-- Footer -->
     <footer id="footer">
-        <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="container text-center">
-                <div class="footer-logo">
-                    <a href="index.html"><img class="img-responsive" src="./Badminton/LOGO%20thumb.png" alt=""></a>
-                </div>
-                <br/>
 
-                <h3>My Scord Board 我的計分版</h3>
-                <div class="social-icons">
-                    <ul>
-                        <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
-
-                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                    </ul>
-                </div>
-
-                <script type="text/javascript">
-                    var submitted = false;
-
-                </script>
-                <iframe id="hidden_iframe" name="hidden_iframe" style="display: none;" onload="if(submitted) {window.location='http://veronicafang.github.io/myscoreboard/thankyoupage.html';}"></iframe>
-                <style type="text/css">
-                    .signupButton {
-                        background-color: #3ac162;
-                        -moz-border-radius: 10px;
-                        -webkit-border-radius: 10px;
-                        border-radius: 10px;
-                        border: 2px solid #18ab29;
-                        display: inline-block;
-                        cursor: pointer;
-                        color: #ffffff;
-                        font-family: Arial;
-                        font-size: 20px;
-                        padding: 10px 42px;
-                        text-decoration: none;
-                        text-align: center;
-                    }
-                    
-                    .signupButton:hover {
-                        background-color: #ffffff;
-                    }
-                    
-                    .signupButton:active {
-                        position: relative;
-                        top: 1px;
-                    }
-
-                </style>
-
-                <!-- 電子報iframe -->
-                <form action="http://www.newsleopard.com/mailverify.htm?x=00000000537670640153826aa5452d25" target="hidden_iframe" method="post" onsubmit="submitted=true;" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;max-width: 300px;margin: 10px auto;padding: 12px 20px;background:#000000;border-radius: 8px;">
-                    <h1 style="color:
-#FFFFFF; -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0.1em 0;text-align: center;font-size: 1.5em;font-family:微軟正黑體"></h1>
-                    <fieldset>
-                        <label for="mail" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: block;margin-bottom: 8px; color:
-#FFFFFF;font-family:微軟正黑體"></label>
-                        <input placeholder="輸入 email" type="email" id="mail" name="email" required style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;color: #000000;font: inherit; text-indent:5px;;line-height: normal;background: #d3d3d3;font-size: 16px;height: auto;outline: 0;padding: 8px;width: 100%;background-color:#ffffff;box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;margin-bottom: 30px; display:block; ">
-                        <button class="signupButton" type="submit" style="border-radius: 5px;width: 70%;border: 1px solid ;background-color:#000000;border-width: 1px 1px 3px;overflow: visible;margin-bottom: 10px;text-transform: none;cursor: pointer;">搶先試用</button>
-                        <label for="mail" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: block;margin-bottom: 8px; color:#44444;">成為My Scord紀錄挑戰者</label>
-
-                    </fieldset>
-                </form>
-
-
+        <section id="three" class="wrapper style3 special">
+            <div class="container">
+                <header class="major">
+                    <h1><img src="./Badminton/LOGO%20thumb.png" alt="MySocreBoard App"></h1>
+                    <h2>用科技，讓比賽變得更有趣。</h2>
+                    <p>請先留下你的資料，我們將於服務上線時讓您搶先體驗。</p>
+                </header>
             </div>
-        </div>
+            <div class="container 50%">
+                <iframe id="hidden_iframe" name="hidden_iframe" style="display: none;" onload="if(submitted) {window.location='http://veronicafang.github.io/myscoreboard/thankyoupage.html';}"></iframe>
+
+                <form action="http://www.newsleopard.com/mailverify.htm?x=00000000537670640153826aa5452d25" target="hidden_iframe" method="post" onsubmit="submitted=true;" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;max-width: 300px;margin: 10px auto;padding: 12px 20px;background:#000000;border-radius: 8px;">
+                    <div class="row uniform">
+                        <div class="6u 12u$(small)">
+                            <input name="name" id="name" value="" placeholder="Name" type="text">
+                        </div>
+                        <div class="12u$">
+                            <input name="email" id="email" value="" placeholder="Email" type="email" rows="6">
+                        </div>
+
+                        <div class="12u$">
+                            <ul class="actions">
+                                <li>
+                                    <input value="Send Message" class="special big" type="submit">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
 
     </footer>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/mousescroll.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
 
-    <!-- GA Tracking Code for http://veronicafang.github.io/myscoreboard/ -->
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <!-- Footer -->
+    <footer id="footer">
 
-        ga('create', 'UA-75181213-1', 'auto');
-        ga('require', 'displayfeatures');
-        ga('send', 'pageview');
-
-    </script>
+    </footer>
 
 
-
+    <!-- jQuery (Bootstrap 所有外掛均需要使用) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 依需要參考已編譯外掛版本（如下），或各自獨立的外掛版本 -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
