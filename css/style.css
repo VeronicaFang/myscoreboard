@@ -9,12 +9,6 @@
 */
 
 
-/* Media Query */
-
-
-/* Small devices (tablets, 768px and up) */
-
-
 /* Basic */
 
 body {
@@ -1090,4 +1084,27 @@ body.landing #header nav a {
 }
 .grid-demo .row.flush > div:last-child span {
     border-radius: 0 4px 4px 0;
+}
+
+/* Media Query */
+
+@media screen and (max-device-width: 480px) {
+    #banner {
+        padding: 8em 2em 8em;
+        background-image: url(../images/dark_tint.png), url(../Badminton/badminton_img/iphone with logo.png);
+        background-position: center center;
+        color: #ffffff;
+        padding: 14em 0em 14em;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    #banner {
+        padding: 8em 2em 8em;
+        background-image: url(../images/dark_tint.png), url(../Badminton/badminton_img/iphone with logo.png);
+        background-position: center center;
+        color: #ffffff;
+        padding: 14em 0em 14em;
+        text-align: center;
+    }
 }
