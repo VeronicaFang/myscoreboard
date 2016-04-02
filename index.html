@@ -118,7 +118,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#one">功能介紹</a></li>
                 <li><a href="#two">關於我們</a></li>
-                <li><a href="https://www.facebook.com/myscoreboardapp" target="blank" class="button special">FB粉絲專頁</a></li>
+                <li><a href="https://www.facebook.com/myscoreboardapp" target="blank" class="button special" onClick="_gaq.push(['_trackEvent',
+'fbpage', 'click'];">FB粉絲專頁</a></li>
             </ul>
 
         </nav>
@@ -131,38 +132,39 @@
         </p>
         <ul class="actions">
             <li>
-                <a href="#footer" class="button big">搶先體驗</a>
+                <a href="#footer" class="button big" onClick="_gaq.push(['_trackEvent',
+'trail_information', 'click'];">搶先體驗</a>
             </li>
         </ul>
     </section>
 
     <!-- One -->
-    <section id="one" class="wrapper style1 special">
-        <div class="container">
-            <header class="major">
+    <section id=" one " class="wrapper style1 special ">
+        <div class="container ">
+            <header class="major ">
                 <h2>三大功能 不可錯過</h2>
                 <p>迅速安排賽程，享受爆扣對手的瞬間，創造偉大的連勝紀錄</p>
             </header>
 
 
 
-            <div class="row 150%">
-                <div class="4u 12u$(medium)">
-                    <section class="box">
-                        <img src="./Badminton/1457952654_calendar-clock.png" alt="Badmintion calendar">
+            <div class="row 150% ">
+                <div class="4u 12u$(medium) ">
+                    <section class="box ">
+                        <img src="./Badminton/1457952654_calendar-clock.png " alt="Badmintion calendar ">
                         <h3>安排賽程</h3>
                         <p>一鍵完成3-8人賽程安排，無需再為排列組合傷透腦筋</p>
                     </section>
                 </div>
-                <div class="4u 12u$(medium)">
-                    <section class="box"><img src="./Badminton/1457952470_icon-57.png" alt="Badminton Record">
+                <div class="4u 12u$(medium) ">
+                    <section class="box "><img src="./Badminton/1457952470_icon-57.png " alt="Badminton Record ">
                         <h3>記錄比賽</h3>
                         <p>完整記錄每場賽事，輕鬆累計個人年度勝負與團隊戰績。</p>
                     </section>
                 </div>
-                <div class="4u$ 12u$(medium)">
-                    <section class="box">
-                        <img src="./Badminton/1457952376_vector_66_10.png" alt="Network">
+                <div class="4u$ 12u$(medium) ">
+                    <section class="box ">
+                        <img src="./Badminton/1457952376_vector_66_10.png " alt="Network ">
                         <h3>社群分享</h3>
                         <p>創造團友互動空間，透過FB讓更多人為你的成績喝采！</p>
                     </section>
@@ -172,16 +174,16 @@
     </section>
 
     <!-- Two -->
-    <section id="two" class="wrapper style2 special">
-        <div class="container">
-            <header class="major">
-                <section class="profiles">
+    <section id="two " class="wrapper style2 special ">
+        <div class="container ">
+            <header class="major ">
+                <section class="profiles ">
 
-                    <div class="row">
-                        <section class="4u 12u(medium) 12u$(xsmall) profile">
-                            <p><img src="./Badminton/badminton_img/badminton%20icon.jpg" alt=""></p>
+                    <div class="row ">
+                        <section class="4u 12u(medium) 12u$(xsmall) profile ">
+                            <p><img src="./Badminton/badminton_img/badminton%20icon.jpg " alt=" "></p>
                         </section>
-                        <section class="8u 12u(medium) 12u$(xsmall) profile">
+                        <section class="8u 12u(medium) 12u$(xsmall) profile ">
                             <h2>關於我們</h2>
 
 
@@ -202,9 +204,10 @@
 
 
             <footer>
-                <ul class="actions">
+                <ul class="actions ">
                     <li>
-                        <a href="#footer" class="button big">搶先取得試用訊息</a>
+                        <a href="#footer " class="button big " onClick="_gaq.push(['_trackEvent',
+'trail_information', 'click'];">搶先取得試用訊息</a>
                     </li>
                 </ul>
             </footer>
@@ -213,32 +216,32 @@
 
     <!-- Three -->
     <!-- Footer -->
-    <footer id="footer">
+    <footer id="footer ">
 
-        <section id="three" class="wrapper style3 special">
-            <div class="container">
-                <header class="major">
-                    <h1><img src="./Badminton/LOGO%20thumb.png" alt="MySocreBoard App"></h1>
+        <section id="three " class="wrapper style3 special ">
+            <div class="container ">
+                <header class="major ">
+                    <h1><img src="./Badminton/LOGO%20thumb.png " alt="MySocreBoard App "></h1>
                     <h2>用科技，讓比賽變得更有趣。</h2>
                     <p>請先留下您的資料，我們將於服務上線時讓您搶先體驗。</p>
                 </header>
             </div>
-            <div class="container 50%">
-                <iframe id="hidden_iframe" name="hidden_iframe" style="display: none;" onload="if(submitted) {window.location='http://myscoreboardapp.com/thankyoupage.html';}"></iframe>
+            <div class="container 50% ">
+                <iframe id="hidden_iframe " name="hidden_iframe " style="display: none; " onload="if(submitted) {window.location='http://myscoreboardapp.com/thankyoupage.html' ;} "></iframe>
 
-                <form action="http://www.newsleopard.com/mailverify.htm?x=00000000537670640153826aa5452d25" target="hidden_iframe" method="post" onsubmit="submitted=true;" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;max-width: 300px;margin: 10px auto;padding: 12px 20px;background:#ffd700;border-radius: 8px;">
-                    <div class="row uniform">
-                        <div class="6u 12u$(small)">
-                            <input name="name" id="name" value="" placeholder="Name" type="text">
+                <form action="http://www.newsleopard.com/mailverify.htm?x=00000000537670640153826aa5452d25 " target="hidden_iframe " method="post " onsubmit="submitted=true; " style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;max-width: 300px;margin: 10px auto;padding: 12px 20px;background:#ffd700;border-radius: 8px; ">
+                    <div class="row uniform ">
+                        <div class="6u 12u$(small) ">
+                            <input name="name " id="name " value=" " placeholder="Name " type="text ">
                         </div>
-                        <div class="12u$">
-                            <input name="email" id="email" value="" placeholder="Email" type="email" rows="6">
+                        <div class="12u$ ">
+                            <input name="email " id="email " value=" " placeholder="Email " type="email " rows="6 ">
                         </div>
 
-                        <div class="12u$">
-                            <ul class="actions">
+                        <div class="12u$ ">
+                            <ul class="actions ">
                                 <li>
-                                    <input value="Send Message" class="special big" type="submit" style="background:#ff6347">
+                                    <input value="Send Message " class="special big " type="submit " style="background:#ff6347 ">
                                 </li>
                             </ul>
                         </div>
@@ -252,15 +255,15 @@
 
 
     <!-- Footer -->
-    <footer id="footer">
+    <footer id="footer ">
 
     </footer>
 
 
     <!-- jQuery (Bootstrap 所有外掛均需要使用) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js "></script>
     <!-- 依需要參考已編譯外掛版本（如下），或各自獨立的外掛版本 -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js "></script>
 </body>
 
 </html>
