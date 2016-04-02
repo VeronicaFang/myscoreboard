@@ -11,29 +11,9 @@
 
 /* Media Query */
 
-@media screen and (max-device-width: 480px) {
-    #banner {
-        padding: 8em 2em 8em;
-        background-image: url(../images/dark_tint.png), url(../Badminton/badminton_img/iphone with logo.png);
-        background-position: center center;
-        color: #ffffff;
-        padding: 14em 0em 14em;
-        text-align: center;
-    }
-}
 
 /* Small devices (tablets, 768px and up) */
 
-@media screen and (max-width: 768px) {
-    #banner {
-        padding: 8em 2em 8em;
-        background-image: url(../images/dark_tint.png), url(../Badminton/badminton_img/iphone with logo.png);
-        background-position: center center;
-        color: #ffffff;
-        padding: 14em 0em 14em;
-        text-align: center;
-    }
-}
 
 /* Basic */
 
