@@ -33,7 +33,6 @@
             a.src = g;
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
         ga('create', 'UA-75181213-1', 'auto');
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
@@ -82,7 +81,6 @@
             s.parentNode.insertBefore(t, s)
         }(window,
             document, 'script', '//connect.facebook.net/en_US/fbevents.js');
-
         fbq('init', '1036051056430341');
         fbq('track', "PageView");
 
@@ -105,32 +103,36 @@
     </noscript>
 
 
+
 </head>
 
-<body class="landing ">
+<body class="landing">
 
     <!-- Header -->
-    <header id="header ">
-        <h1><a href="index.html ">MyScoreBoard</a></h1>
-        <nav id="nav ">
+    <header id="header">
+        <h1><a href="index.html">MyScoreBoard</a></h1>
+        <nav id="nav">
             <ul>
-                <li><a href="index.html ">Home</a></li>
-                <li><a href="#one " onClick="_gaq.push([ '_trackEvent', 'function', 'click']; ">功能介紹</a></li>
-                <li><a href="#two " onClick="_gaq.push([ '_trackEvent', 'aboutus', 'click']; ">關於我們</a></li>
-                <li><a href="https://www.facebook.com/myscoreboardapp " target="blank " class="button special " onClick="_gaq.push([ '_trackEvent', 'fbpage', 'click']; ">FB粉絲專頁</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#one" onClick="_gaq.push(['_trackEvent',
+'function', 'click'];">功能介紹</a></li>
+                <li><a href="#two" onClick="_gaq.push(['_trackEvent',
+'aboutus', 'click'];">關於我們</a></li>
+                <li><a href="https://www.facebook.com/myscoreboardapp" target="blank" class="button special" onClick="_gaq.push(['_trackEvent',
+'fbpage', 'click'];">FB粉絲專頁</a></li>
             </ul>
 
         </nav>
     </header>
 
     <!-- Banner -->
-    <section id="banner ">
-        <h2>記錄羽球生涯的<span id="banner_span ">最佳夥伴</span></h2>
+    <section id="banner">
+        <h2>記錄羽球生涯的<span id="banner_span">最佳夥伴</span></h2>
         <p>這是一款免費的運動App，長時間的幫助每位球友記錄賽事成果，也提供網站可查詢更詳細的個人記錄，用科技，讓比賽變得更有趣。
         </p>
-        <ul class="actions ">
+        <ul class="actions">
             <li>
-                <a href="#footer " class="button big " onClick="_gaq.push([ '_trackEvent', 'trail_information', 'click']; ">搶先體驗</a>
+                <a href="#footer" class="button big" onClick="_gaq.push(['_trackEvent', 'trail_information', 'click'];">搶先體驗</a>
             </li>
         </ul>
     </section>
@@ -203,7 +205,8 @@
             <footer>
                 <ul class="actions ">
                     <li>
-                        <a href="#footer " class="button big " onClick="_gaq.push([ '_trackEvent', 'trail_information', 'click']; ">搶先取得試用訊息</a>
+                        <a href="#footer " class="button big " onClick="_gaq.push(['_trackEvent',
+'trail_information', 'click'];">搶先取得試用訊息</a>
                     </li>
                 </ul>
             </footer>
@@ -212,14 +215,14 @@
 
     <!-- Three -->
     <!-- Footer -->
-    <footer id="footer ">
+    <footer id="footer " class="footer">
 
         <section id="three " class="wrapper style3 special ">
             <div class="container ">
                 <header class="major ">
                     <h1><img src="./Badminton/LOGO%20thumb.png " alt="MySocreBoard App "></h1>
                     <h2>用科技，讓比賽變得更有趣。</h2>
-                    <p>請先留下你的資料，我們將於服務上線時讓您搶先體驗。</p>
+                    <p>請先留下您的資料，我們將於服務上線時讓您搶先體驗。</p>
                 </header>
             </div>
             <div class="container 50% ">
@@ -250,14 +253,10 @@
     </footer>
 
 
-
-
     <!-- jQuery (Bootstrap 所有外掛均需要使用) -->
-    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js "></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js "></script>
     <!-- 依需要參考已編譯外掛版本（如下），或各自獨立的外掛版本 -->
     <script src="js/bootstrap.min.js "></script>
-
 </body>
 
 </html>
