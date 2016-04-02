@@ -21,7 +21,10 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 767px) {
+
+/* Small devices (tablets, 768px and up) */
+
+@media screen and (max-width: 768px) {
     #banner {
         padding: 8em 2em 8em;
         background-image: url(../images/dark_tint.png), url(../Badminton/badminton_img/iphone with logo.png);
