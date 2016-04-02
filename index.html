@@ -116,8 +116,10 @@
         <nav id="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#one">功能介紹</a></li>
-                <li><a href="#two">關於我們</a></li>
+                <li><a href="#one" onClick="_gaq.push(['_trackEvent',
+'function', 'click'];">功能介紹</a></li>
+                <li><a href="#two" onClick="_gaq.push(['_trackEvent',
+'aboutus', 'click'];">關於我們</a></li>
                 <li><a href="https://www.facebook.com/myscoreboardapp" target="blank" class="button special" onClick="_gaq.push(['_trackEvent',
 'fbpage', 'click'];">FB粉絲專頁</a></li>
             </ul>
