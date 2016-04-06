@@ -744,7 +744,7 @@ input[type="button"].fit,
 .button.fit {
     display: block;
     margin: 0 0 1em 0;
-    width: 100%;
+    width: 80%;
 }
 input[type="submit"].small,
 input[type="reset"].small,
@@ -917,7 +917,15 @@ body.landing #header nav a {
     padding: 14em 0em 14em;
     text-align: center;
 }
-#banner:last-child {
+@media(max-width:667px) {
+    #banner {
+        background-image: url(../Badminton/badminton_img/iPhone%E7%90%83%E6%8B%8D.jpg)
+    }
+    .button.big {
+        width: 70%;
+    }
+}
+#banner: last-child {
     margin-bottom: 0;
 }
 #banner h2 {
@@ -932,7 +940,7 @@ body.landing #header nav a {
     color: yellow;
 }
 #banner p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 1.75em;
     font-family: meiryo, "微軟正黑體", Microsoft Jhenghei;
 }
@@ -1085,27 +1093,4 @@ body.landing #header nav a {
 }
 .grid-demo .row.flush > div:last-child span {
     border-radius: 0 4px 4px 0;
-}
-
-/* Media Query */
-
-@media screen and (max-device-width: 480px) {
-    #banner {
-        padding: 8em 2em 8em;
-        background-image: url(../images/dark_tint.png), url(../Badminton/badminton_img/iphone with logo.png);
-        background-position: center center;
-        color: #ffffff;
-        padding: 14em 0em 14em;
-        text-align: center;
-    }
-}
-@media screen and (max-width: 767px) {
-    #banner {
-        padding: 8em 2em 8em;
-        background-image: url(../images/dark_tint.png), url(../Badminton/badminton_img/iphone with logo.png);
-        background-position: center center;
-        color: #ffffff;
-        padding: 14em 0em 14em;
-        text-align: center;
-    }
 }
