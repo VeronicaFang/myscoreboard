@@ -33,48 +33,65 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.css.map" rel="stylesheet">
 
-
-
-</head>
-
-
-<body>
-
-    <h1>Thank you</h1>
-    <h4>謝謝您留下Email，我們將在產品上線的第一時間優先通知您！</h4>
-    <h3>
-        <a href="http://www.facebook.com/myscoreboardapp">
-            <button type="button" class="btn btn-primary btn-lg">
-                FB粉絲團：關注更多羽球技巧</button>
-        </a>
-    </h3>
-    <h3>
-        <a href="http://myscoreboardapp.com/">
-            <button type="button" class="btn btn-success btn-lg">
-                My Score Board | 我的計分板</button>
-        </a>
-    </h3>
-
-
-
-
-
-    <!-- Hotjar Tracking Code for http://veronicafang.github.io/myscoreboard/ -->
+    <!-- Facebook Pixel Code -->
     <script>
-        (function(h, o, t, j, a, r) {
-            h.hj = h.hj || function() {
-                (h.hj.q = h.hj.q || []).push(arguments)
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
-            h._hjSettings = {
-                hjid: 164264,
-                hjsv: 5
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1036051056430341');
+        fbq('track', 'Lead');
+
+
+        < /head>
+
+
+        < body >
+
+            < h1 > Thank you < /h1> < h4 > 謝謝您留下Email， 我們將在產品上線的第一時間優先通知您！ < /h
+        4 > < h3 >
+            < a href = "http://www.facebook.com/myscoreboardapp" >
+            < button type = "button"
+        class = "btn btn-primary btn-lg" >
+            FB粉絲團： 關注更多羽球技巧 < /button> < /a > < /h3> < h3 > < a href = "http:/ / myscoreboardapp.com / " > < button type = "
+        button "
+        class = "btn btn-success btn-lg" >
+            My Score Board | 我的計分板 < /button> < /a > < /h3>
+
+
+
+
+
+        <!-- Hotjar Tracking Code for http://veronicafang.github.io/myscoreboard/ -->
+        < script >
+            (function(h, o, t, j, a, r) {
+                h.hj = h.hj || function() {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+                h._hjSettings = {
+                    hjid: 164264,
+                    hjsv: 5
+                };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script');
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
 
     </script>
 
@@ -84,6 +101,6 @@
 
     <!-- 依需要參考已編譯外掛版本（如下），或各自獨立的外掛版本 -->
     <script src="js/bootstrap.min.js "></script>
-</body>
+    </body>
 
 </html>
