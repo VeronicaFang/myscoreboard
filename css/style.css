@@ -917,18 +917,6 @@ body.landing #header nav a {
     padding: 14em 0em 14em;
     text-align: center;
 }
-.videoWrapper {
-    position: relative;
-    padding-bottom: 30%;
-    /* 16:9 */
-    padding-top: 25px;
-    height: 0;
-}
-.videoWrapper iframe {
-    top: 0;
-    left: 0;
-    height: 500px;
-}
 @media(max-width:667px) {
     #banner {
         background-image: url(../Badminton/10704651754_aba2c5530c_z.jpg);
