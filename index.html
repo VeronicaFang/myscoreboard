@@ -89,9 +89,34 @@
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1036051056430341&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
+    <!-- Youtube Video Style -->
+    <style>
+        body {
+            margin: 0px;
+            background: #000;
+        }
+        
+        #bg_container {
+            height: 700px;
+            overflow: hidden;
+        }
+        
+        #bg {
+            width: 400px;
+            height: 700px;
+        }
+        
+        #content {
+            position: absolute;
+            top: 0px;
+            padding: 30px;
+            color: #FFF;
+            text-shadow: #000 2px 2px;
+        }
 
+    </style>
 
-
+    <!-- Youtube Video Style -->
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
     <script src="js/jquery.min.js"></script>
     <script src="js/skel.min.js"></script>
@@ -103,7 +128,6 @@
         <link rel="stylesheet" href="css/style-xlarge.css" />
         <link href="css/bootstrap.min.css" rel="stylesheet">
     </noscript>
-
 
 </head>
 
@@ -130,14 +154,17 @@
         <h2>記錄羽球生涯的<span id="banner_span">最佳夥伴</span></h2>
         <p>這是一款免費的運動App 一起來創造屬於自己的連勝紀錄吧。
         </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UUgQci_CCkw" frameborder="0" allowfullscreen></iframe>
 
-        <ul class="actions">
-            <li>
-                <a href="#one" class="button big" onClick="_gaq.push(['_trackEvent', 'Acquisition', 'click', 'trail_information'];">瞭解更多</a>
-            </li>
-        </ul>
-
+        <div id="bg_container">
+            <iframe id="bg" src="https://www.youtube.com/embed/UUgQci_CCkw" frameborder="0"></iframe>
+        </div>
+        <div>
+            <ul class="actions">
+                <li>
+                    <a href="#one" class="button big" onClick="_gaq.push(['_trackEvent', 'Acquisition', 'click', 'trail_information'];">瞭解更多</a>
+                </li>
+            </ul>
+        </div>
 
     </section>
 

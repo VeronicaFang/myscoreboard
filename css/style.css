@@ -910,7 +910,7 @@ body.landing #header nav a {
 /* Banner */
 
 #banner {
-    background-image: url(../images/dark_tint.png), url(../Badminton/badminton_img/banner.png);
+    background-image: url(../images/dark_tint.png), url(../Badminton/banner_player2.jpg);
     background-position: center center;
     background-size: cover;
     color: #ffffff;
@@ -919,11 +919,25 @@ body.landing #header nav a {
 }
 @media(max-width:667px) {
     #banner {
-        background-image: url(../Badminton/badminton_img/iPhone%E7%90%83%E6%8B%8D.jpg)
+        background-image: url(../Badminton/10704651754_aba2c5530c_z.jpg);
     }
     .button.big {
         width: 80%;
     }
+    #bg_container {
+        height: 350px;
+        overflow: hidden;
+    }
+    #bg {
+        width: 200px;
+        height: 350px;
+    }
+}
+#bg {
+    overflow: hidden;
+}
+#bg p {
+    position: absolute;
 }
 #banner: last-child {
     margin-bottom: 0;
