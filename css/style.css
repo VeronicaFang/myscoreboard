@@ -922,22 +922,22 @@ body.landing #header nav a {
         background-image: url(../Badminton/10704651754_aba2c5530c_z.jpg);
     }
     .button.big {
-        width: 80%;
+        width: 50%;
     }
     #bg_container {
-        height: 350px;
         overflow: hidden;
-    }
-    #bg {
-        width: 200px;
-        height: 350px;
     }
 }
 #bg {
     overflow: hidden;
+    width: 200px;
+    height: 350px;
 }
 #bg p {
     position: absolute;
+}
+#bg_container {
+    overflow: hidden;
 }
 #banner: last-child {
     margin-bottom: 0;
