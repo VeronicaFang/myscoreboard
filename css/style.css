@@ -910,9 +910,10 @@ body.landing #header nav a {
 /* Banner */
 
 #banner {
-    background-image: url(../images/dark_tint.png), url(../Badminton/banner_player2.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-image: url(../Badminton/10704651754_aba2c5530c_z.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #ffffff;
     padding: 14em 0em 14em;
     text-align: center;
@@ -1080,6 +1081,13 @@ body.landing #header nav a {
     line-height: 4em;
     width: 4em;
     cursor: pointer;
+}
+#google_form {
+    max-width: 70%;
+    max-height: 70%;
+    background-color: coral;
+    max-height: none;
+    max-width: none;
 }
 
 /* Grid Demo */
