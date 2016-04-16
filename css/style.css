@@ -910,8 +910,8 @@ body.landing #header nav a {
 /* Banner */
 
 #banner {
-    background-image: url(../Badminton/10704651754_aba2c5530c_z.jpg);
-    background-size: auto;
+    background-image: url(../Badminton/10704651754_aba2c5530c_1.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #ffffff;
@@ -920,7 +920,7 @@ body.landing #header nav a {
 }
 @media(max-width:667px) {
     #banner {
-        background-image: url(../Badminton/10704651754_aba2c5530c_z.jpg);
+        background-image: url(../Badminton/10704651754_aba2c5530c_1.jpg);
     }
     .button.big {
         width: 50%;
@@ -959,6 +959,8 @@ body.landing #header nav a {
     font-size: 1.5em;
     margin-bottom: 1.75em;
     font-family: meiryo, "微軟正黑體", Microsoft Jhenghei;
+    background-color: gray;
+    background: RGBA(20%, 0%, 0%, 0.6);
 }
 
 /* Wrapper */
