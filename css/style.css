@@ -1055,7 +1055,9 @@ body.landing #header nav a {
 #footer h4 {
     color: #ffffff;
 }
-#footer p,
+#footer p {
+    font-size: 1.5em;
+}
 #footer a,
 #footer li {
     color: #cdced0;
@@ -1093,6 +1095,11 @@ body.landing #header nav a {
     line-height: 4em;
     width: 4em;
     cursor: pointer;
+}
+@media(max-width:667px) {
+    #footer p {
+        font-size: 1em;
+    }
 }
 #google_form {
     max-width: 70%;
