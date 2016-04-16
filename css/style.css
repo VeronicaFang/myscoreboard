@@ -197,7 +197,17 @@ header.major h2 {
     margin-bottom: 0.5em;
 }
 header.major p {
-    font-size: 1.5em;
+    font-size: 1em;
+}
+header.major iframe {
+    max-width: 270px;
+    height: 480px;
+}
+@media(max-width:667px) {
+    header.major iframe {
+        max-width: 270px;
+        height: 480px;
+    }
 }
 
 /* Form */
