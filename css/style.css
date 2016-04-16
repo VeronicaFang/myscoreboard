@@ -929,10 +929,14 @@ body.landing #header nav a {
 }
 @media(max-width:667px) {
     #banner {
-        background-image: url(../Badminton/10704651754_aba2c5530c_6.jpg);
+        background-image: url(../Badminton/4.jpg);
+        background-size: cover;
     }
     .button.big {
         width: 50%;
+    }
+    #banner h2 {
+        background: RGBA(20%, 0%, 0%, 0.6);
     }
 }
 
