@@ -200,8 +200,8 @@ header.major p {
     font-size: 1em;
 }
 header.major iframe {
-    max-width: 270px;
-    height: 480px;
+    max-width: 480px;
+    height: 270px;
 }
 @media(max-width:667px) {
     header.major iframe {
