@@ -204,7 +204,10 @@ header.major img {
 }
 @media(max-width:667px) {
     header.major h2 {
-        font-size: 16px;
+        font-size: 2em;
+    }
+    header.major p {
+        font-size: 1.2em;
     }
 }
 
