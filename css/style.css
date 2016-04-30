@@ -204,8 +204,7 @@ header.major img {
 }
 @media(max-width:667px) {
     header.major h2 {
-        font-size: 1em;
-        margin-bottom: 0.5em;
+        font-size: 16px;
     }
 }
 
@@ -933,10 +932,14 @@ body.landing #header nav a {
         background-size: cover;
     }
     .button.big {
-        width: 50%;
+        width: 100%;
+    }
+    #banner p {
+        background: RGBA(10%, 0%, 0%, 0.6);
+        font-size: 0.4em;
     }
     #banner h2 {
-        background: RGBA(20%, 0%, 0%, 0.6);
+        font-size: 1em;
     }
 }
 
@@ -959,7 +962,7 @@ body.landing #header nav a {
 }
 #banner h2 {
     color: deepskyblue;
-    font-size: 4em;
+    font-size: 3em;
     line-height: 1.25em;
     margin: 0 0 0.5em 0;
     padding: 0;
