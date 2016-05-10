@@ -943,6 +943,7 @@ body.landing #header nav a {
     }
     #banner h2 {
         font-size: 1em;
+        word-break: keep-all;
     }
 }
 
