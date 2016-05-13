@@ -200,7 +200,7 @@ header.major p {
     font-size: 1em;
 }
 header.major img {
-    max-width: 100%;
+    max-width: 70%;
 }
 @media(max-width:667px) {
     header.major h2 {
